@@ -60,6 +60,10 @@ h1 {
    
 }
 
+.first-part p{
+    padding: 10px;
+}
+
 .heading-strong {
     font-family: 'Lato', sans-serif;
     color: #d69e3d; /* Gold color */
