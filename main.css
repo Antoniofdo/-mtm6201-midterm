@@ -68,26 +68,26 @@ h1 {
     margin: 0;
 }
 
-.heading-left {
+.heading1 {
     font-family: 'Lato', sans-serif;
     color: #966f2c; /* Dark brown color */
     text-align: left;
     margin-left: 15px;
 }
 
-.heading-right{
+.heading2{
     font-family: 'Lato', sans-serif;
     color: #000000; /* Dark brown color */
     text-align: left;
     margin-left: 15px;
 }
 
-.heading-center {
+.heading3 {
     font-family: 'Lato', sans-serif;
     color: #966f2c; /* Dark brown color */
     text-align: center;
 }
-.heading-center1 {
+.heading4 {
     font-family: 'Lato', sans-serif;
     color: #000000; /* Dark brown color */
     text-align: center;
@@ -99,10 +99,10 @@ h1 {
     h1 {
         font-size: 2.027rem; /* 32.44px */
     }
-    h2.heading-left, h2.heading-center {
+    h2.heading1, h2.heading3 {
         font-size: 1.802rem; /* 28.83px */
     }
-    h3.heading-left, h3.heading-center {
+    h3.heading1, h3.heading3 {
         font-size: 1.424rem; /* 22.78px */
     }
     p {
@@ -114,10 +114,10 @@ h1 {
     h1 {
         font-size: 2.986rem; /* 47.78px */
     }
-    h2.heading-left, h2.heading-center {
+    h2.heading1, h2.heading3 {
         font-size: 2.488rem; /* 39.81px */
     }
-    h3.heading-left, h3.heading-center {
+    h3.heading1, h3.heading3 {
         font-size: 1.728rem; /* 27.65px */
     }
     p {
@@ -129,10 +129,10 @@ h1 {
     h1 {
         font-size: 3.815rem; /* 61.04px */
     }
-    h2.heading-left, h2.heading-center {
+    h2.heading1, h2.heading3 {
         font-size: 3.052rem; /* 48.83px */
     }
-    h3.heading-left, h3.heading-center {
+    h3.heading1, h3.heading3 {
         font-size: 1.953rem; /* 31.25px */
     }
     p {
