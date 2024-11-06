@@ -19,8 +19,7 @@ nav {
     display: flex;
     justify-content: center;
     background-color: black;
-    padding: 15px 0;
-    font-style: inherit;
+    padding: 20px 0;
 }
 
 .nav-item {
@@ -30,6 +29,7 @@ nav {
     font-size: 1rem; /* 16px */
     margin: 0 10px;
     padding: 15px;
+    font-style: initial;
 }
 
 .nav-item:hover {
