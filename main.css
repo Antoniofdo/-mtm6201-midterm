@@ -29,7 +29,7 @@ nav {
     font-size: 1rem; /* 16px */
     margin: 0 10px;
     padding: 15px;
-    font-style: initial;
+    font-weight: 850;
 }
 
 .nav-item:hover {
