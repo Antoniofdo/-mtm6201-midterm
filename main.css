@@ -4,6 +4,8 @@ body {
     padding: 0;
     font-family: 'Karla', sans-serif;
     background-color: #f3f0e9; /* Nude cream background color */
+    padding-left :20px;
+    padding-right:20px;
 }
 
 /* logo */
@@ -43,6 +45,7 @@ h5{font-family: 'Lato', sans-serif;
     text-align: center;
     padding: 20px;
     margin: 0;
+   
 }
 
 .first-part{
@@ -50,24 +53,45 @@ h5{font-family: 'Lato', sans-serif;
     background-size:cover; /* Ensure the image covers the entire area */
     background-position: center; /* Center the background image */
     background-blend-mode:darken;
+    height: 600px;
 }
+
 h1 {
     font-family: 'Lato', sans-serif;
     color: white;
     text-align: center;
     padding: 10px;
     margin: 0;
+    padding-top: 150px;
    
+}
+
+.welcome{
+    padding-top: 50px;
+    margin: 10px;
+}
+
+.welcome h2{
+    font-size: 32pt;
 }
 
 .first-part p{
     padding: 100px;
+    padding-top: 0;
+    padding-bottom:0;
+    font-weight: 1000;
+    font-size: larger;
+
+}
+
+.content{
+    background-color: #dfd3bd;
 }
 
 .heading-strong {
     font-family: 'Lato', sans-serif;
     color: #d69e3d; /* Gold color */
-    background-color: black;
+    background-color: #000000;
     text-align: center;
     padding: 20px 0;
     margin: 0;
@@ -128,6 +152,31 @@ h1 {
     p {
         font-size: 1rem; /* 16px */
     }
+
+    .first-part {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .welcome h2{
+        padding-right: 400px;
+    }
+
+    .gallery{
+        width: 400px;
+        height: 400px;
+    }
+
+    .group-container{
+        float: right;
+        padding: 5px;
+    }
+
+    .column::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
 }
 
 @media (min-width: 1025px) { /* Desktop */
@@ -160,26 +209,25 @@ h1 {
 /* Buttons */
 .buttons-container {
     text-align: center;
-    font-weight: bold;
     padding: 68px 0;
     margin-bottom: 0;
+    font-weight:bolder; /* Bold letters */
 }
 
 .button-wrapper {
     display: inline-block;
 }
 
-.button-link {
+.button-explore {
     background-color: white; /* White background */
     color: black; /* Black text */
-    font-weight: bold; /* Bold letters */
-    padding: 10px 20px;
+    padding: 20px 40px 20px 40px;
     text-decoration: none;
-    border-radius: 5px;
     font-family: 'Karla', sans-serif;
+    font-size: larger;
 }
 
-.button-link:hover {
+.button-explore:hover {
     background-color: #d69e3d; /* Gold color */
     color: black; /* Black text */
 }
@@ -188,19 +236,22 @@ h1 {
 .gallery {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 0px 0;
 }
 
 .gallery-image {
-    width: 100%;
+    width: 95%;
     height: auto;
+
 }
 
 /* Image */
 .image-full img {
-    width: 100%;
-    height: auto;
+    width: 230px;
+    height: 230px;
 }
+
+
 
 .group-container {
     display: flex;
@@ -209,14 +260,23 @@ h1 {
 
 .column {
     flex: 1;
-    padding: 10px;
+    padding: 0px;
 }
 
-.columns {
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
+.what h3{
+  color: #d69e3d;
 }
+
+.what h2{
+    font-size: 32pt;
+  }
+  
+.content2 .text-center1{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+} 
+
 
 .small-image {
     display: block;
@@ -232,34 +292,42 @@ h1 {
     background-position: center; /* Center the background image */
     background-blend-mode:darken;
     text-align: center;
-    padding: 50px 20px;
-    margin-bottom: 80px;
+    padding: 0px 0px;
 }
 
-.our-menu h1 {
-    font-size: 3rem;
+.our-menu h2 {
+    font-size: 30pt;
     margin: 0;
+    padding-bottom: 20px;
+    color: #ffffff;
 }
 
-.our-menu h2,h3{
+.our-menu h3{
+    padding-top: 80px;
+    font-size: 24pt;
+    padding-bottom:0px;
     color: #d69e3d; 
 }
 
+
+
+
 .our-menu a.button {
     display: inline-block;
+    font-size: 18pt;
+    font-weight: 1000;
     margin-top: 20px;
     padding: 10px 20px;
     color: rgb(0, 0, 0);
     background-color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
     font-family: 'Karla', sans-serif;
     margin-bottom: 50px;
 }
 .our-location a.button {
     background-color: transparent; /* Make background transparent */
     color: #ffffff; /* Text color white */
-    border: 2px solid #ffffff; /* Thick white border */
+    border: 5px solid #ffffff; /*  5px Thick white border */
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 
@@ -273,10 +341,18 @@ h1 {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 1rem; /* 16px */
-    padding: 7px;
+    padding: 10px;
     margin-bottom: 50px;
 }
+
+.about-us h3{ 
+    color: #d69e3d;
+    font-weight: bolder;
+}
+
 .about-us p {
+    font-size: 15pt;
+    padding: 10px;
     margin-bottom: 10px; /* Adjust the margin between paragraphs */
 }
 .about-us h2{
@@ -284,13 +360,13 @@ h1 {
 }
 
 .about-us a.button {
+    font-weight:bolder; ;
     display: inline-block;
     color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 0.5px solid #ffffff;
     padding: 10px 20px;
     background-color: black;
     text-decoration: none;
-    border-radius: 5px;
     font-family: 'Karla', sans-serif;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -299,20 +375,62 @@ h1 {
 /* Feedback */
 .feedback{
     background:black;
-    padding: 50px 20px;
-    margin-bottom: 80px;
+    padding: 50px 10px;
+    
 }
-.feedback h1{
+
+.feedback h3{
+    font-size: 24pt;
+    color: #d69e3d;
+}
+
+.feedback h2{
     text-align: left;
-    font-size: 3rem;
+    font-size: 24pt;
+    color: #ffffff;
+    padding-left: 10px;
 }
-.feedback-about{
+.feedback-about1{
     background:url('images/testimonial-1.jpeg'); /* Background image added here */
     background-size:cover; /* Ensure the image covers the entire area */
     background-position: center; /* Center the background image */
     background-blend-mode:darken;
-    padding: 50px 20px;
-    margin-bottom: 80px;}
+    padding-top: 500px ;
+    margin-top: 80px;
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bolder;
+
+}
+.feedback-about2{
+    background:url('images/testimonial-2.jpeg'); /* Background image added here */
+    background-size:cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-blend-mode:darken;
+    padding-top: 500px ;
+    margin-top: 80px;
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bolder;
+
+}
+.feedback-about3{
+    background:url('images/testimonial-3.jpeg'); /* Background image added here */
+    background-size:cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-blend-mode:darken;
+    padding-top: 500px ;
+    margin-top: 80px;
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bolder;
+
+}
+
+hr {
+    width: 90%;
+    
+}
 
 /* Footer */
 footer {
@@ -320,4 +438,5 @@ footer {
     padding: 20px 0;
     background-color: black;
     color: white;
+    font-size: 16pt;
 }
